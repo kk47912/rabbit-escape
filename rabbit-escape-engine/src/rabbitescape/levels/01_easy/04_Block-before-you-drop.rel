@@ -1,10 +1,10 @@
-:name=Block before you drop
-:description=Drop blocking tokens to stop rabbits falling off. Blow up your blockers at the end.
+:name=추락방지
+:description=rabbit들이 떨어지는 것을 막기 위해 차단 토큰을 배치하십시오. 역할을 마친 blocker는 파괴하십시오.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=The blocking tokens are blue.
-:hint.2=Choose a blocker from the left and place one at the end of the second platform.
-:hint.3=You need blockers at the right of the second platform and the left of the third.
+:hint.1=차단토큰은 푸른색입니다. 차단토큰을 획득한 rabbit은 blocker가 되어 진로를 차단합니다.
+:hint.2=좌측의 차단토큰을 선택하고 위에서 두번째 플랫폼의 끝자락에 토큰을 배치합니다.
+:hint.3=두번째 플랫폼의 오른쪽과 세번째 플랫폼의 왼쪽에 blocker가 필요합니다.
 :solution.1=block;(14,4);(4,6);34;explode;(14,4);(4,6);23
 :num_rabbits=10
 :num_to_save=2

@@ -35,7 +35,7 @@ public class DialogText
         return
               "<p class='lower'>"
             + t(
-                "Rabbits: ${num_rabbits}  Must save: ${num_to_save}",
+                "Rabbit 수: ${num_rabbits}  생존 요구 수: ${num_to_save}",
                 DialogText.statsValues( world )
             )
             + "</p>";

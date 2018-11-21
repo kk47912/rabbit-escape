@@ -198,10 +198,10 @@ public class Rabbit extends Thing implements Comparable<Rabbit>
         switch ( dir )
         {
         case LEFT:
-            fmt = "<[%d] ";
+            fmt = "<[%d호] ";
             break;
         case RIGHT:
-            fmt = " [%d]>";
+            fmt = " [%d호]>";
             break;
         default:
             throw new RuntimeException( "Rabbit should only be left or right");

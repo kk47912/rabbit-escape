@@ -1,10 +1,10 @@
-:name=Dig quick
-:description=Quick, dig before it's too late!
+:name=빨리파기
+:description=늦기전에 땅을 파라!
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=If the rabbits fall more than 4 squares they don't land well.
-:hint.2=If you need more time, pause and choose the digger, then unpause to place it.
-:hint.3=Dig on the last or second-last square of the top platform.
+:hint.1=rabbit들은 5칸이상의 높이에서 떨어지면 죽습니다.
+:hint.2=만약 시간이 부족하다면, 일시정지를 하는 방법이 있습니다. 
+:hint.3=상단 플랫폼의 끝자락 또는 끝에서 두번째에 해당하는 발판을 파헤치십시오.
 :solution.1=dig;(5,4);14
 :num_rabbits=1
 :num_to_save=1

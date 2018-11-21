@@ -87,6 +87,6 @@ public class Entrance extends Thing
     @Override
     public String overlayText()
     {
-        return null == world ? "Entrance" : "Entrance\n" + world.num_waiting + " to come";
+        return null == world ? "입구" : "입구\n" + world.num_waiting + " 마리 남음";
     }
 }

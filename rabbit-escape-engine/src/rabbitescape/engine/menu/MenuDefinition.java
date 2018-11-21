@@ -30,28 +30,28 @@ public class MenuDefinition
     )
     {
         return menu(
-            "Welcome to Rabbit Escape!",
+            "Rabbit Escape에 오신 것을 환영합니다!",
             item(
-                "Start Game",
+                "게임 시작",
                 menu(
-                    "Choose a set of levels:",
+                    "스테이지를 선택하십시오:",
                     items( levelsCompleted, loadedLevels )
                 ),
                 true,
                 false
             ),
-            item( "About", Type.ABOUT, true ),
+            item( "Rabbit Escape 정보", Type.ABOUT, true ),
             maybeItem(
                 includeLoadLevel,
-                "Custom Levels",
+                "사용자 지정 레벨",
                 menu(
-                    "Get from file or network",
-                    item( "Load Level", Type.LOAD, true ),
-                    item( "GitHub Issue", Type.GITHUB_ISSUE, true )
+                    "파일 또는 네트워크에서 가져 오기",
+                    item( "레벨 가져오기", Type.LOAD, true ),
+                    item( "GitHub 이슈", Type.GITHUB_ISSUE, true )
                 ),
                 true
             ),
-            item( "Quit", Type.QUIT,  true )
+            item( "종료", Type.QUIT,  true )
         );
     }
 

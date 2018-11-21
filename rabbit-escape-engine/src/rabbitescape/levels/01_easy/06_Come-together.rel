@@ -1,10 +1,10 @@
-:name=Come together
-:description=You don't have enough diggers to take everyone straight down.  What will you do?
+:name=뭉치면 산다
+:description=당신의 굴착토큰의 갯수는 많지 않습니다. 모두를 밑으로 내려오게 하기 위한 방법이 있을까요?
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Can you join up your two groups of rabbits somehow?
-:hint.2=Bash through the central barrier to get all your rabbits together.
-:hint.3=Place a basher near the middle column then use two diggers to get to the exit.
+:hint.1=두 그룹의 rabbit들을 한 곳에 모으는 것은 어떤가요?
+:hint.2=모든 rabbit을 한 곳에 모으기 위해 가운데 벽을 허무십시오.
+:hint.3=가운데 벽 근처에 철거토큰을 배치한 후 두 개의 굴착토큰을 사용해 출구에 도달하십시오.
 :solution.1=bash;(6,3);dig;(15,3);(14,5);50
 :num_rabbits=20
 :num_to_save=15

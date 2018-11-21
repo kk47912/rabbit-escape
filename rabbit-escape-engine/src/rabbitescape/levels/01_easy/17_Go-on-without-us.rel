@@ -1,10 +1,10 @@
-:name=Go on without us
-:description=Send someone ahead to make a way.
+:name=여긴 나에게 맡겨라
+:description=길을 개척하기 위해 누군가를 떠내보내라.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=How can you get one rabbit out without the others coming?
-:hint.2=Bridge across to find a safe route.
-:hint.3=Make one rabbit a climber then use it to bridge across the gap in the middle platform.  When ready, bridge to release the other rabbits.
+:hint.1=rabbit들 사이에서 어떻게 한 마리만 꺼낼 수 있을까요?
+:hint.2=브릿지를 건설해 안전한 루트를 미리 마련하십시오.
+:hint.3=처음에 rabbit 하나에게 등반능력을 부여하여 꺼낸 다음, 추락할 위험이 있는 중간 구멍을 브릿지로 메우게 하십시오. 안전한 루트가 마련되면 스타트지점에 브릿지를 놓아 다른 rabbit들을 움직이십시오.
 :solution.1=bridge;(10,8);climb;(6,3);13;bridge;5;(6,3);59
 :num_rabbits=5
 :num_to_save=5

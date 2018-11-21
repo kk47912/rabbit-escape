@@ -69,11 +69,11 @@ class GameMenu
             "menu_unmuted",
             "menu_muted",
             ConfigTools.getBool( uiConfig, CFG_MUTED ),
-            t( "Mute" )
+            t( "음소거" )
         );
 
         this.pause = addToggleButton(
-            "menu_pause", "menu_unpause", false, t( "Pause" ) );
+            "menu_pause", "menu_unpause", false, t( "일시정지" ) );
 
         addSpacer();
 
@@ -81,14 +81,14 @@ class GameMenu
 
         addSpacer();
 
-        this.explodeAll = addButton( "menu_explode_all", t( "Explode all" ) );
+        this.explodeAll = addButton( "menu_explode_all", t( "!자폭스위치!" ) );
 
         this.speed = addToggleButton(
-            "menu_speedup_inactive", "menu_speedup_active", false, t( "speed up" ) );
+            "menu_speedup_inactive", "menu_speedup_active", false, t( "빨리감기" ) );
 
-        this.zoomIn     = addButton( "menu_zoom_in",     t( "Zoom in" ) );
-        this.zoomOut    = addButton( "menu_zoom_out",    t( "Zoom out" ) );
-        this.back       = addButton( "menu_back",        t( "Back" ) );
+        this.zoomIn     = addButton( "menu_zoom_in",     t( "확대" ) );
+        this.zoomOut    = addButton( "menu_zoom_out",    t( "축소" ) );
+        this.back       = addButton( "menu_back",        t( "뒤로" ) );
 
         panel.setPreferredSize(
             new Dimension(

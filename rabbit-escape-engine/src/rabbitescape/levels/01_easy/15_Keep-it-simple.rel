@@ -1,10 +1,10 @@
-:name=Keep it simple
-:description=Don't over-think this one.
+:name=심플하게
+:description=너무 깊게 생각하지 마십시오.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=You only need to place one token to solve this level.
-:hint.2=What is the best way to go downwards?
-:hint.3=Place a dig token on the top platform directly above the exit.
+:hint.1=단 하나의 토큰만 있으면 문제가 해결됩니다.
+:hint.2=아래로 내려가기 위한 가장 좋은 방법은 무엇입니까?
+:hint.3=출구 바로 위의 발판을 굴착토큰을 사용해 제거합니다.
 :solution.1=dig;(12,4);11
 :num_rabbits=2
 :num_to_save=1

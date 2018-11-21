@@ -1,10 +1,10 @@
-:name=Three strikes
-:description=You will need several different abilities to get past each of the towers in your way.
+:name=삼진 스트라이크
+:description=진로상의 각 장애물을 돌파하기 위해서는 몇가지 특정 능력이 필요합니다.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Use bashers, climbers and bridgers. In what order?
-:hint.2=You can't go over the last wall - go through it.
-:hint.3=Bridge directly under the entrance, place two climbers by the second wall, and bash through the third wall.
+:hint.1=철거, 등반, 브릿지 세 가지 토큰을 올바른 순서대로 사용하십시오.
+:hint.2=마지막 장애물은 넘어갈 수 없습니다. 대신 지나가십시오.
+:hint.3=시작지점에 브릿지를 배치, 두번째 장애물에서는 등반, 세번째 장애물은 철거토큰을 사용해 넘어갑니다.
 :solution.1=bash;bridge;10;(2,9);8;climb;(9,9);(9,9);bash;(12,9);30
 :num_rabbits=2
 :num_to_save=2

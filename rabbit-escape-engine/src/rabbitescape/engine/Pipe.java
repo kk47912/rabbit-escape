@@ -48,6 +48,6 @@ public class Pipe extends Thing
     @Override
     public String overlayText()
     {
-        return "Pipe";
+        return "파이프";
     }
 }

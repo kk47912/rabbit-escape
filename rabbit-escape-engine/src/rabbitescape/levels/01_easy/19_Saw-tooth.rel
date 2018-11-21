@@ -1,10 +1,10 @@
-:name=Saw tooth
-:description=Bridge, climb, bridge.
+:name=톱니
+:description=다리, 등반, 다리
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Build a bridge, then climb up a bit, and bridge again from higher up.
-:hint.2=You can bridge from that notch in the top-right.
-:hint.3=Bridge rightwards 4-5 squares from the right-hand wall. Climb up that wall. Bridge twice in the top hole in the wall.
+:hint.1=브릿지를 건설하고, 벽을 짚고 올라가서, 더 높은곳에서 브릿지를 건설하십시오.
+:hint.2=오른쪽 꼭대기의 파인 홈에서 브릿지를 만들 수 있습니다.
+:hint.3=오른쪽 벽에서 4~5칸 떨어진 곳에서 브릿지를 건설하십시오. 그리고 벽을 타십시오. 마지막으로 벽 꼭대기의 구멍에서 두번째 다리를 건설하십시오.
 :solution.1=bridge;(10,9);3;(7,9);8;(10,7);11;(5,9);23;(14,3);10
 :num_rabbits=2
 :num_to_save=2

@@ -39,6 +39,6 @@ public class Exit extends Thing
     @Override
     public String overlayText()
     {
-        return world == null ? "Exit" : "Exit\n" + world.num_saved + " saved";
+        return world == null ? "출구" : "출구\n" + world.num_saved + " 마리 생존함";
     }
 }

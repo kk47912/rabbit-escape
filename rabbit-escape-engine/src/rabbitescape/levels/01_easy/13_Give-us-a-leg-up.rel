@@ -1,10 +1,10 @@
-:name=Give us a leg up
-:description=You'll need to work together to get three of your rabbits to the exit!
+:name=우리에게 도움을
+:description=세 마리의 rabbit을 출구로 데려가기 위해서 그들간의 협동이 필요합니다!
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Can the top rabbit clear the way for the others?
-:hint.2=Dig from the top to allow the other three to climb up.
-:hint.3=Place a dig token on the first square of the slope. Place three climb tokens just before the wall on the right.
+:hint.1=윗층의 rabbit이 다른 rabbit들을 위해 길을 비울 수 있습니까?
+:hint.2=아랫층의 세 rabbit들이 벽을 타고 올라올 수 있도록 윗층의 땅을 뚫으십시오.
+:hint.3=경사면의 첫 부분에 굴착토큰을 배치하십시오. 오른쪽 벽 바로 앞에 세 개의 등반토큰을 배치하십시오.
 :solution.1=dig;(13,3);climb;(10,9);(10,9);(10,9);21
 :num_rabbits=4
 :num_to_save=3

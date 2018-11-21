@@ -166,6 +166,6 @@ public class Fire extends Thing
     @Override
     public String overlayText()
     {
-        return "Fire";
+        return "불";
     }
 }

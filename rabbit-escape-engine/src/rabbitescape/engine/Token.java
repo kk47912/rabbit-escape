@@ -166,13 +166,34 @@ public class Token extends Thing
 
     public static String name( Type ability )
     {
-        String n = ability.name();
-        return n.substring( 0, 1 ).toUpperCase() + n.substring( 1 );
+        switch( ability.name() )
+        {
+        case "bash": return "철거토큰";
+        case "dig": return "굴착토큰";
+        case "bridge": return "브릿지토큰";
+        case "block": return "차단토큰";
+        case "climb": return "등반토큰";
+        case "explode": return "폭파토큰";
+        case "brolly": return "낙하산토큰";
+        default:
+            String n = ability.name();
+            return n.substring( 0, 1 ).toUpperCase() + n.substring( 1 );
+        }
     }
 
     @Override
     public String overlayText()
     {
-        return type.toString();
+        switch( type )
+        {
+        case bash: return "철거토큰";
+        case dig: return "굴착토큰";
+        case bridge: return "브릿지토큰";
+        case block: return "차단토큰";
+        case climb: return "등반토큰";
+        case explode: return "폭파토큰";
+        case brolly: return "낙하산토큰";
+        default: return type.toString();
+        }
     }
 }

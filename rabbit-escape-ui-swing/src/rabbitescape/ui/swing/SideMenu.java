@@ -51,16 +51,16 @@ class SideMenu
             "menu_unmuted",
             "menu_muted",
             ConfigTools.getBool( uiConfig, CFG_MUTED ),
-            t( "Mute" )
+            t( "음소거" )
         );
 
         addSpacer();
 
-        this.back = addButton( "menu_back", t( "Back" ) );
+        this.back = addButton( "menu_back", t( "뒤로" ) );
 
         addSpacer();
 
-        this.exit = addButton( "menu_exit", t( "Exit" ) );
+        this.exit = addButton( "menu_exit", t( "나가기" ) );
 
         panel.setPreferredSize(
             new Dimension(

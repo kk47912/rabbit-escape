@@ -339,7 +339,7 @@ public class MenuUi
             t( "Rabbit Escape Level (*.rel)" ),
             "rel"
         );
-        fc.setDialogTitle( t( "Open a level file" ) );
+        fc.setDialogTitle( t( "레벨 파일을 가져옵니다" ) );
 
         fc.setCurrentDirectory( new File( path ) );
         fc.addChoosableFileFilter( relFilter );
@@ -417,7 +417,7 @@ public class MenuUi
         JOptionPane.showMessageDialog(
             frame,
             text,
-            t( "About Rabbit Escape" ),
+            t( "Rabbit Escape 정보" ),
             JOptionPane.INFORMATION_MESSAGE
         );
     }

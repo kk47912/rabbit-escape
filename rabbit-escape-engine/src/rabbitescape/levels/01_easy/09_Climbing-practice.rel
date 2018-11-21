@@ -1,10 +1,10 @@
-:name=Climbing practice
-:description=Place climbing tokens to give your rabbits the ability to get over things.
+:name=등반 훈련
+:description=rabbit에게 눈 앞의 있는 것들을 넘어갈 수 있도록 등반토큰을 배치하십시오.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Once a rabbit is a climber, it stays a climber.
-:hint.2=Make all your rabbits into climbers.
-:hint.3=Place climbing tokens near the rabbits and watch them walk home!
+:hint.1=한번 등반토큰을 획득한 rabbit은 그 효과가 영구지속됩니다.
+:hint.2=모든 rabbit들이 등반능력을 획득할 수 있도록 만드십시오.
+:hint.3=가까운 rabbit에게 등반토큰을 제공한 뒤 집까지 걸어나가는 것을 눈으로 확인해보세요!
 :solution.1=climb;(4,4);9;(4,4);(4,4);(4,4);(4,4);(4,4);20
 :num_rabbits=4
 :num_to_save=4

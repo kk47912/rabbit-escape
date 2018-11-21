@@ -1,10 +1,10 @@
-:name=Cliff face
-:description=Get the hang of placing bridging tokens at the end of a bridge.  Use a blocker to slow the others down.
+:name=절벽
+:description=브릿지 끝에 브릿지 토큰을 배치하여 절벽을 오를 수 있도록 하십시오. blocker를 사용해 건설작업이 방해받지 않도록 하는 것을 권장합니다.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Judge how far back you need to start bridging.
-:hint.2=After three squares, the bridger stops. Drop another bridging token at the end to carry on. The extension token can be dropped when the rabbit has just started building the last section of the previous bridge.
-:hint.3=Place your first bridging token about 5-7 squares before the wall.  Place another at the top of the bridge.
+:hint.1=브릿지를 어디서부터 건설해야할지를 계산하십시오.
+:hint.2=브릿지토큰은 한번에 최대 3개까지의 발판을 만들 수 있습니다. 하지만 브릿지 위에 동일한 토큰을 추가하는 것으로 작업을 이어나갈 수 있습니다.
+:hint.3=벽에서 약 5~7칸 떨어진 곳에서 첫 브릿지토큰을 배치하십시오. 배치된 브릿지 끝에 또다른 브릿지토큰을 배치하십시오.
 :solution.1=bridge;(12,9);8;(9,9);8;(12,7);8;(15,4);43
 :num_rabbits=12
 :num_to_save=11

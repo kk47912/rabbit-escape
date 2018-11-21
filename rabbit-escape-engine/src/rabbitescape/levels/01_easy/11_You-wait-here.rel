@@ -1,10 +1,10 @@
-:name=You wait here
-:description=One of your rabbits must prepare the way while the others wait
+:name=여기서 기다려!
+:description=한 rabbit은 길을 개척하는 동안 다른 rabbit들은 기다려야 합니다.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Make your first rabbit a bridger and keep the others back using 2 blockers.
-:hint.2=Try placing all the bridging tokens at the beginning, to give you more time.
-:hint.3=Place a bridge token at the very right end of the first platform and each floating island. After one rabbit starts bridging, place block tokens at each end of the first platform. When ready, use an explode token to blow up the right-hand blocker.
+:hint.1=첫 rabbit을 개척자역할을 부여한 뒤, 두 개의 blocker를 사용해 나머지가 추락사하지 않도록 방지합니다.
+:hint.2=처음부터 모든 브릿지토큰을 적재적소에 배치하여 시간을 절약하십시오.
+:hint.3=브릿지토큰을 첫번째 플랫폼과 떠있는 섬 오른쪽 끝에 각각 배치합니다. 첫 rabbit이 브릿지건설을 시작하면 첫 플랫폼의 양 끝에 차단토큰을 배치합니다. 이후 길을 건널 준비가 된다면, 폭파토큰를 사용해 오른쪽 blocker를 제거하십시오.
 :solution.1=bridge;(10,4);;(5,4);(13,4);(17,4);(20,2);7;(9,4);24;explode;(15,9);28
 :num_rabbits=10
 :num_to_save=8

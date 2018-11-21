@@ -1,10 +1,10 @@
-:name=Bashing practice
-:description=Choose the green button on the left, then drop a bashing token next to the wall.
+:name=철거 훈련
+:description=좌측의 녹색 토큰을 선택, 벽 옆에 철거토큰을 배치하여 벽을 허무십시오.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Drop a bashing token when the rabbit is not there, to make sure you bash to the right.
-:hint.2=Choose a token on the left, then drop it next to the wall to the right of the rabbits.
-:hint.3=Make sure your token is selected on the left. Be careful not to move your finger as you touch.
+:hint.1=벽과 인접한 곳에 토큰을 배치하여 오른쪽 벽을 허무십시오. rabbit이 없을 때 배치하는 것이 효율적입니다.
+:hint.2=좌측의 토큰을 선택하고 rabbit의 오른쪽 벽 근처에 토큰을 배치합니다.
+:hint.3=토큰이 선택되어 있는지 확인하십시오. 터치 시 손가락이 흔들리지 않도록 주의하십시오.
 :solution.1=bash;(7,2);23
 :num_rabbits=3
 :num_to_save=1

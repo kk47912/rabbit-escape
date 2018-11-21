@@ -216,12 +216,12 @@ public class SwingGameLaunch implements GameLaunch
 
         try
         {
-            String[] buttons = new String[] { t( "Cancel" ), t( "Explode!" ) };
+            String[] buttons = new String[] { t( "취소" ), t( "폭발!" ) };
 
             int ret = JOptionPane.showOptionDialog(
                 frame,
-                t( "Do you want to explode your rabbits?" ),
-                t( "Explode all rabbits?" ),
+                t( "rabbit들을 폭발시키겠습니까?" ),
+                t( "!!폭발!!" ),
                 JOptionPane.YES_NO_OPTION,
                 JOptionPane.QUESTION_MESSAGE,
                 null,
@@ -395,9 +395,9 @@ public class SwingGameLaunch implements GameLaunch
         }
 
         showDialog(
-            t( "You won!" ),
+            t( "승리!" ),
             t(
-                "Saved: ${num_saved}  Needed: ${num_to_save}",
+                "생존함: ${num_saved}  생존 요구 수: ${num_to_save}",
                 DialogText.statsValues( world )
             ),
             new Object[] { t( "Ok" ) }
@@ -423,9 +423,9 @@ public class SwingGameLaunch implements GameLaunch
         }
 
         showDialog(
-            t( "You lost!" ),
+            t( "패배!" ),
             t(
-                "Saved: ${num_saved}  Needed: ${num_to_save}",
+                "생존함: ${num_saved}  생존 요구 수: ${num_to_save}",
                 DialogText.statsValues( world )
             ),
             new Object[] { t( "Ok" ) }

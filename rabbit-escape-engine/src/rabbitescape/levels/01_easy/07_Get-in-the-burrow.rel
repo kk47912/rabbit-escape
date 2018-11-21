@@ -1,10 +1,10 @@
-:name=Get in the burrow
-:description=You will need to dig accurately to get your rabbits home.
+:name=땅굴파기
+:description=rabbit들이 집에 도달할 수 있도록 땅을 적절히 파헤쳐야 합니다.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Can you dig in exactly the right place to get them to the exit?
-:hint.2=Your second digger should be placed so the rabbits will fall near the exit.
-:hint.3=Dig on the far left, then in the middle of the slope.
+:hint.1=rabbit들을 출구에 안전하게 데려갈 수 있는 장소로 땅을 파는 것은 어떤가요?
+:hint.2=두 개의 굴착토큰으로 rabbit들이 출구 근처에 떨어지도록 만들 수 있습니다. 
+:hint.3=맨 왼쪽을 파고, 그 다음 경사면의 중간을 파헤치십시오.
 :solution.1=dig;(3,3);(4,7);113
 :num_rabbits=20
 :num_to_save=10

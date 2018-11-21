@@ -1,10 +1,10 @@
-:name=To the top
-:description=There's got to be a way up there.
+:name=정상을 향해
+:description=분명 저기에 길이 있을거야.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Can you climb up somewhere?
-:hint.2=Climb up the right of the column to the exit.
-:hint.3=Bash through the column.  Bridge up to the right-hand side of the column.  Climb up.
+:hint.1=어딘가에서 벽을 탈 수 있겠습니까?
+:hint.2=기둥 오른편에서 벽을타고 올라가 출구에 도달하십시오.
+:hint.3=기둥에 공간과 공간을 잇는 통로를 뚫으십시오. 기둥 오른편에서 올라갈 수 있는 길을 만드십시오. 그리고 벽을 타고 올라가십시오.
 :solution.1=bash;(8,9);8;bridge;2;(13,9);7;climb;(12,9);(12,9);(12,9);(12,9);(12,9);34
 :num_rabbits=4
 :num_to_save=4

@@ -18,8 +18,8 @@ import static rabbitescape.engine.util.Util.*;
 
 public class TopBar implements Physics.StatsChangedListener
 {
-    private static final String outText     = "Out: ${num1} / ${num2}";
-    private static final String savedText   = "Saved: ${num1} / ${num2}";
+    private static final String outText     = "출현 수: ${num1} / ${num2}";
+    private static final String savedText   = "생존 수: ${num1} / ${num2}";
 
     private static final String abilityText =
         "${ability} (${numLeft} left)";

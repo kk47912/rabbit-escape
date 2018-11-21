@@ -1,10 +1,10 @@
-:name=Get down
-:description=Place digging tokens in the right places to avoid falling too far.
+:name=내려주세요
+:description=굴착토큰을 적절한 곳에 배치하여 지나치게 높은 곳에서 추락하는 것을 피하십시오.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Choose the digger token on the left and place them in good places to drop down.
-:hint.2=Place a digger near the left at the beginning.
-:hint.3=Dig in the middle of the roof over the green exit.
+:hint.1=좌측의 굴착토큰을 선택하여 rabbit이 안전하게 내릴 수 있는 곳에 배치하십시오.
+:hint.2=시작지점 왼쪽에 굴착토큰을 배치하십시오.
+:hint.3=녹색 출구의 지붕 중앙을 뚫으십시오.
 :solution.1=dig;(7,2);(9,7);57
 :num_rabbits=10
 :num_to_save=10

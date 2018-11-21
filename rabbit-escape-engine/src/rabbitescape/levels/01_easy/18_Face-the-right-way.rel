@@ -1,10 +1,10 @@
-:name=Face the right way
-:description=This one is easy if you can get your timing right.
+:name=옳은쪽을 향해
+:description=만약 당신이 정확한 타이밍을 잴 수 있다면 어려운 문제가 아닙니다.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Place your climb tokens when the rabbits are facing the right way.
-:hint.2=You can drop tokens on top of each other.
-:hint.3=Immediately place 10 climbing tokens as fast as you can under the entrance.
+:hint.1=rabbit이 오른쪽을 바라볼 즈음에 등반토큰을 배치하십시오.
+:hint.2=토큰은 여러개 겹칠 수 있습니다.
+:hint.3=시작과 동시에 10개의 등반토큰을 입구에 배치시키면 효과적입니다.
 :solution.1=climb;(15,4);(15,4);(15,4);(15,4);(15,4);(15,4);(15,4);(15,4);(15,4);(15,4);33
 :num_rabbits=10
 :num_to_save=10

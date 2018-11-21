@@ -261,7 +261,7 @@ public class GitHubIssueDialog extends JDialog implements ChangeListener
     protected GitHubIssueDialog( Frame frame )
     {
         super( frame, true ); // arg2 sets modal
-        setTitle( t( "Retrieve level from the GitHub Rabbit Escape issue pages." ) );
+        setTitle( t( "GitHub Rabbit Escape issue pages에서 레벨 검색" ) );
 
         GridBagConstraints gbc = new GridBagConstraints();
 

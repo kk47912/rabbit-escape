@@ -1,10 +1,10 @@
-:name=Across the void
-:description=Build lots of bridges to get across without falling out of the world.
+:name=공허를 뚫고
+:description=월드 밖으로 떨어지지 않고 길을 건널 브릿지를 최대한 많이 쌓아라.
 :author_name=Andy Balaam
 :author_url=http://artificialworlds.net/rabbit-escape/
-:hint.1=Don't panic: you only need to save two! Focus on saving the first rabbit.
-:hint.2=Build a bridge from the bottom of the slope, and place another when the bridger is about to stop.
-:hint.3=Place a bridge token at the very bottom of the slope. After three squares, place another at end of the bridge.
+:hint.1=동요하지 마십시오! rabbit 두 마리만 지킬 수 있으면 됩니다. 첫 rabbit의 생존에 집중하십시오.
+:hint.2=경사면 밑부분에 브릿지를 건설하고 건설이 끝날 즈음에 추가로 건설을 이어나가십시오.
+:hint.3=경사면 맨 밑부분에 브릿지토큰을 배치하십시오. 그리고 발판 3개가 만들어졌을 때 브릿지 끝에 토큰을 추가적으로 배치하십시오.
 :solution.1=bridge;(8,9);11;(11,7);15
 :num_rabbits=5
 :num_to_save=2

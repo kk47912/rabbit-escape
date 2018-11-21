@@ -25,7 +25,7 @@ public class LevelsMenu extends Menu
     private LevelsMenu(
         String levelsDir, LevelsCompleted levelsCompleted, MenuItem[] items )
     {
-        super( "Choose a level:", items );
+        super( "레벨을 선택하십시오:", items );
 
         this.levelsDir = levelsDir;
         this.levelsCompleted = levelsCompleted;
