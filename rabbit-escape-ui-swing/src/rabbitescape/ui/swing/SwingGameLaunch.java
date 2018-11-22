@@ -337,18 +337,18 @@ public class SwingGameLaunch implements GameLaunch
             if ( i == 0 )
             {
                 // There were no hints at all
-                return new Object[] { t( "Start" ) };
+                return new Object[] { t( "시작!" ) };
             }
             else
             {
                 // Go back to level description
-                return new Object[] { t( "Info" ), t( "Start" ) };
+                return new Object[] { t( "임무정보" ), t( "시작!" ) };
             }
         }
         else
         {
             // Another hint to come
-            return new Object[] { t( hintName( i ) ), t( "Start" ) };
+            return new Object[] { t( hintName( i ) ), t( "시작!" ) };
         }
     }
 
@@ -356,11 +356,11 @@ public class SwingGameLaunch implements GameLaunch
     {
         if ( i == 0 )
         {
-            return "Hint";
+            return "힌트";
         }
         else
         {
-            return "Hint " + ( i + 1 );
+            return "힌트 " + ( i + 1 );
         }
     }
 

@@ -22,7 +22,7 @@ public class TopBar implements Physics.StatsChangedListener
     private static final String savedText   = "생존 수: ${num1} / ${num2}";
 
     private static final String abilityText =
-        "${ability} (${numLeft} left)";
+        "${ability} (${numLeft}개 남음)";
 
     private final Color backgroundColor;
     private final JPanel panel;
@@ -80,7 +80,20 @@ public class TopBar implements Physics.StatsChangedListener
 
     public void abilityChanged( Token.Type ability, int numLeft )
     {
-        setAbilityText( this.ability, abilityText, ability.name(), numLeft );
+    	String ab_to_kr;
+    	 switch(ability)
+         {
+         case bash:ab_to_kr = "철거토큰"; break;
+         case dig: ab_to_kr = "굴착토큰"; break;
+         case bridge: ab_to_kr = "브릿지토큰"; break;
+         case block: ab_to_kr = "차단토큰"; break;
+         case climb: ab_to_kr = "등반토큰"; break;
+         case explode: ab_to_kr = "폭파토큰"; break;
+         case brolly: ab_to_kr = "낙하산토큰"; break;
+         default: ab_to_kr = ability.name();
+         }
+    	 
+        setAbilityText( this.ability, abilityText, ab_to_kr, numLeft );
     }
 
     private void setCountText( JLabel label, String text, int num1, int num2 )
