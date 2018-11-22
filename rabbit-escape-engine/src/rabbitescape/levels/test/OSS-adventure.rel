@@ -38,9 +38,9 @@ k(      )MMM(  /####  /####(   )
 :bridge=10
 :description=rabbit들을 출구까지 옮겨라!
 :dig=3
-:hint.1=시연용 맵, 힌트없음.
-:hint.2=시연용 맵, 힌트없음.
-:hint.3=시연용 맵, 힌트없음.
+:hint.1=
+:hint.2=
+:hint.3=
 :music=tryad-sampling_memory
 :name=오픈소스소프트웨어 어드벤쳐
 :num_to_save=10
